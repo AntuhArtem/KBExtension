@@ -15,6 +15,7 @@
 		28C5BFC220F5DA5C00AAC987 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C5BFC120F5DA5C00AAC987 /* KeyboardViewController.swift */; };
 		28C5BFC620F5DA5C00AAC987 /* iOS CustomKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 28C5BFBF20F5DA5C00AAC987 /* iOS CustomKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		28C5BFCC20F5DA7500AAC987 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28C5BFCB20F5DA7500AAC987 /* KeyboardView.xib */; };
+		83252F4E22E9DBB8006931BC /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83252F4D22E9DBB8006931BC /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		28C5BFC120F5DA5C00AAC987 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 		28C5BFC320F5DA5C00AAC987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28C5BFCB20F5DA7500AAC987 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		83252F4D22E9DBB8006931BC /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				28C5BFC120F5DA5C00AAC987 /* KeyboardViewController.swift */,
 				28C5BFCB20F5DA7500AAC987 /* KeyboardView.xib */,
+				83252F4D22E9DBB8006931BC /* RoundedButton.swift */,
 				28C5BFC320F5DA5C00AAC987 /* Info.plist */,
 			);
 			path = "iOS CustomKeyboard";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28C5BFC220F5DA5C00AAC987 /* KeyboardViewController.swift in Sources */,
+				83252F4E22E9DBB8006931BC /* RoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
